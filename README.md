@@ -1,4 +1,4 @@
-# MaNameGenerator
+# M&A Name Generator
 
 
 [![Build Status](https://travis-ci.org/barash-asenov/ma_name_generator.svg?branch=master)](https://travis-ci.org/barash-asenov/ma_name_generator.svg?branch=master)
