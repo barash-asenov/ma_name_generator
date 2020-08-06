@@ -1,5 +1,7 @@
 # MaNameGenerator
 
+[![Build Status](https://travis-ci.org/barash-asenov/ma_name_generator.svg?branch=master)](https://travis-ci.org/barash-asenov/ma_name_generator.svg?branch=master)
+
 Simple random name M&A name generator for ruby
 
 ## Installation
