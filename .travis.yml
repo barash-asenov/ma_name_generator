@@ -3,4 +3,4 @@ rvm:
   - 2.6.5
 jobs:
   include:
-    - script: bundle exec rake test
+    - script: bundle exec rake spec
