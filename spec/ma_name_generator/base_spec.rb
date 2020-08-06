@@ -17,5 +17,9 @@ RSpec.describe MaNameGenerator::Base do
     it 'excludes items on #excluded_items' do
       expect(described_class.send(:excluded_items, ['DUMMY'])).not_to include('DUMMY')
     end
+
+    it 'does not raise an error when requesting unique items without params' do
+      expect { described_class.generate_unique }.not_to raise_error
+    end
   end
 end

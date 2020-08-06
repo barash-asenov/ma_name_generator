@@ -7,7 +7,7 @@ module MaNameGenerator
         MA_NAMES.sample
       end
 
-      def generate_unique(excluding:)
+      def generate_unique(excluding: [])
         raise NotArray unless excluding.is_a?(Array)
 
         excluded_items(excluding).sample
